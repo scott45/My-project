@@ -1,0 +1,26 @@
+h1 {
+    color: brown;
+    font-family: cursive;
+}
+
+h2 {
+    color: sandybrown;
+    font-family: cursive;
+}
+
+div {
+    color: rosybrown;
+}
+
+
+
+body {
+    font-family: "Times", Verdana, Arial, sans-serif cursive;
+    margin: 5px;
+    background: black no-repeat fixed center top;
+    color: #f9fff9;
+}
+
+nav {
+    font-family: cursive;
+}

@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %}department details{% endblock %}
+{% block body %}
+
+<img src="{{ department_logo.url }}">
+<h2>{{ department }}</h2>
+<h3>{{ department.leader }}</h3>
+
+<h2>Posts</h2>
+<ul>
+{% for post in department.post_set.all %}
+    <li>{{ post }}</li>
+{% endfor %}
+</ul>
+{% endblock %}
